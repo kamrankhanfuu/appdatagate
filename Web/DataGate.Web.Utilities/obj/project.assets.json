@@ -1,0 +1,81 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETStandard,Version=v2.1": {
+      "DataGate.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/DataGate.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataGate.Common.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DataGate.Common/1.0.0": {
+      "type": "project",
+      "path": "../../DataGate.Common/DataGate.Common.csproj",
+      "msbuildProject": "../../DataGate.Common/DataGate.Common.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETStandard,Version=v2.1": [
+      "DataGate.Common >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Lenovo\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Lenovo\\Desktop\\DataGate\\Web\\DataGate.Web.Utilities\\DataGate.Web.Utilities.csproj",
+      "projectName": "DataGate.Web.Utilities",
+      "projectPath": "C:\\Users\\Lenovo\\Desktop\\DataGate\\Web\\DataGate.Web.Utilities\\DataGate.Web.Utilities.csproj",
+      "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Lenovo\\Desktop\\DataGate\\Web\\DataGate.Web.Utilities\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netstandard2.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "projectReferences": {
+            "C:\\Users\\Lenovo\\Desktop\\DataGate\\DataGate.Common\\DataGate.Common.csproj": {
+              "projectPath": "C:\\Users\\Lenovo\\Desktop\\DataGate\\DataGate.Common\\DataGate.Common.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netstandard2.1": {
+        "imports": [
+          "net461"
+        ],
+        "assetTargetFallback": true,
+        "warn": true
+      }
+    }
+  }
+}

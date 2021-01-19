@@ -1,0 +1,36 @@
+<stylecopresultscache>
+  <version>12</version>
+  <project key="696613756">
+    <configuration>
+    </configuration>
+  </project>
+  <sourcecode name="RedisHashTests.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2020-07-08 10:02:13.527</styleCop>
+      <settingsFile>2020-11-12 10:38:37.346</settingsFile>
+      <sourceFile>2020-11-12 12:35:08.322</sourceFile>
+      <parser>2020-07-08 10:02:13.527</parser>
+      <StyleCop.CSharp.DocumentationRules>2020-07-08 10:02:13.527</StyleCop.CSharp.DocumentationRules>
+      <StyleCop.CSharp.DocumentationRules.FilesHashCode>280390727</StyleCop.CSharp.DocumentationRules.FilesHashCode>
+      <StyleCop.CSharp.LayoutRules>2020-07-08 10:02:13.527</StyleCop.CSharp.LayoutRules>
+      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
+      <StyleCop.CSharp.MaintainabilityRules>2020-07-08 10:02:13.527</StyleCop.CSharp.MaintainabilityRules>
+      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
+      <StyleCop.CSharp.NamingRules>2020-07-08 10:02:13.527</StyleCop.CSharp.NamingRules>
+      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
+      <StyleCop.CSharp.OrderingRules>2020-07-08 10:02:13.527</StyleCop.CSharp.OrderingRules>
+      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
+      <StyleCop.CSharp.ReadabilityRules>2020-07-08 10:02:13.527</StyleCop.CSharp.ReadabilityRules>
+      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
+      <StyleCop.CSharp.SpacingRules>2020-07-08 10:02:13.527</StyleCop.CSharp.SpacingRules>
+      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
+    </timestamps>
+    <violations>
+      <violation namespace="StyleCop.CSharp.CsParser" rule="SyntaxException" ruleCheckId="SA0102">
+        <context>A syntax error has been discovered in file C:\Users\philip.shishov\Downloads\DataGate\Tests\DataGate.Services.Tests\Redis\RedisHashTests.cs on line 48.</context>
+        <line>48</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+</stylecopresultscache>

@@ -1,0 +1,412 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "DataGate.Common/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/DataGate.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataGate.Common.dll": {}
+        }
+      },
+      "DataGate.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "DataGate.Common": "1.0.0",
+          "DataGate.Data.Common": "1.0.0",
+          "DataGate.Data.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DataGate.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataGate.Data.dll": {}
+        }
+      },
+      "DataGate.Data.Common/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/DataGate.Data.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataGate.Data.Common.dll": {}
+        }
+      },
+      "DataGate.Data.Models/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/DataGate.Data.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataGate.Data.Models.dll": {}
+        }
+      },
+      "DataGate.Services/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/DataGate.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataGate.Services.dll": {}
+        }
+      },
+      "DataGate.Services.Data/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/DataGate.Services.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataGate.Services.Data.dll": {}
+        }
+      },
+      "DataGate.Services.Mapping/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/DataGate.Services.Mapping.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataGate.Services.Mapping.dll": {}
+        }
+      },
+      "DataGate.Services.Messaging/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/DataGate.Services.Messaging.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataGate.Services.Messaging.dll": {}
+        }
+      },
+      "DataGate.Web/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "DataGate.Data": "1.0.0",
+          "DataGate.Data.Models": "1.0.0",
+          "DataGate.Services": "1.0.0",
+          "DataGate.Services.Data": "1.0.0",
+          "DataGate.Services.Mapping": "1.0.0",
+          "DataGate.Services.Messaging": "1.0.0",
+          "DataGate.Web.Dtos": "1.0.0",
+          "DataGate.Web.Infrastructure": "1.0.0",
+          "DataGate.Web.InputModels": "1.0.0",
+          "DataGate.Web.Utilities": "1.0.0",
+          "DataGate.Web.ViewModels": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DataGate.Web.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataGate.Web.dll": {}
+        }
+      },
+      "DataGate.Web.Dtos/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/DataGate.Web.Dtos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataGate.Web.Dtos.dll": {}
+        }
+      },
+      "DataGate.Web.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/DataGate.Web.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataGate.Web.Infrastructure.dll": {}
+        }
+      },
+      "DataGate.Web.InputModels/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/DataGate.Web.InputModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataGate.Web.InputModels.dll": {}
+        }
+      },
+      "DataGate.Web.Utilities/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/DataGate.Web.Utilities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataGate.Web.Utilities.dll": {}
+        }
+      },
+      "DataGate.Web.ViewModels/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/DataGate.Web.ViewModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataGate.Web.ViewModels.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DataGate.Common/1.0.0": {
+      "type": "project",
+      "path": "../../DataGate.Common/DataGate.Common.csproj",
+      "msbuildProject": "../../DataGate.Common/DataGate.Common.csproj"
+    },
+    "DataGate.Data/1.0.0": {
+      "type": "project",
+      "path": "../../Data/DataGate.Data/DataGate.Data.csproj",
+      "msbuildProject": "../../Data/DataGate.Data/DataGate.Data.csproj"
+    },
+    "DataGate.Data.Common/1.0.0": {
+      "type": "project",
+      "path": "../../Data/DataGate.Data.Common/DataGate.Data.Common.csproj",
+      "msbuildProject": "../../Data/DataGate.Data.Common/DataGate.Data.Common.csproj"
+    },
+    "DataGate.Data.Models/1.0.0": {
+      "type": "project",
+      "path": "../../Data/DataGate.Data.Models/DataGate.Data.Models.csproj",
+      "msbuildProject": "../../Data/DataGate.Data.Models/DataGate.Data.Models.csproj"
+    },
+    "DataGate.Services/1.0.0": {
+      "type": "project",
+      "path": "../../Services/DataGate.Services/DataGate.Services.csproj",
+      "msbuildProject": "../../Services/DataGate.Services/DataGate.Services.csproj"
+    },
+    "DataGate.Services.Data/1.0.0": {
+      "type": "project",
+      "path": "../../Services/DataGate.Services.Data/DataGate.Services.Data.csproj",
+      "msbuildProject": "../../Services/DataGate.Services.Data/DataGate.Services.Data.csproj"
+    },
+    "DataGate.Services.Mapping/1.0.0": {
+      "type": "project",
+      "path": "../../Services/DataGate.Services.Mapping/DataGate.Services.Mapping.csproj",
+      "msbuildProject": "../../Services/DataGate.Services.Mapping/DataGate.Services.Mapping.csproj"
+    },
+    "DataGate.Services.Messaging/1.0.0": {
+      "type": "project",
+      "path": "../../Services/DataGate.Services.Messaging/DataGate.Services.Messaging.csproj",
+      "msbuildProject": "../../Services/DataGate.Services.Messaging/DataGate.Services.Messaging.csproj"
+    },
+    "DataGate.Web/1.0.0": {
+      "type": "project",
+      "path": "../../Web/DataGate.Web/DataGate.Web.csproj",
+      "msbuildProject": "../../Web/DataGate.Web/DataGate.Web.csproj"
+    },
+    "DataGate.Web.Dtos/1.0.0": {
+      "type": "project",
+      "path": "../../Web/DataGate.Web.Dtos/DataGate.Web.Dtos.csproj",
+      "msbuildProject": "../../Web/DataGate.Web.Dtos/DataGate.Web.Dtos.csproj"
+    },
+    "DataGate.Web.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../../Web/DataGate.Web.Infrastructure/DataGate.Web.Infrastructure.csproj",
+      "msbuildProject": "../../Web/DataGate.Web.Infrastructure/DataGate.Web.Infrastructure.csproj"
+    },
+    "DataGate.Web.InputModels/1.0.0": {
+      "type": "project",
+      "path": "../../Web/DataGate.Web.InputModels/DataGate.Web.InputModels.csproj",
+      "msbuildProject": "../../Web/DataGate.Web.InputModels/DataGate.Web.InputModels.csproj"
+    },
+    "DataGate.Web.Utilities/1.0.0": {
+      "type": "project",
+      "path": "../../Web/DataGate.Web.Utilities/DataGate.Web.Utilities.csproj",
+      "msbuildProject": "../../Web/DataGate.Web.Utilities/DataGate.Web.Utilities.csproj"
+    },
+    "DataGate.Web.ViewModels/1.0.0": {
+      "type": "project",
+      "path": "../../Web/DataGate.Web.ViewModels/DataGate.Web.ViewModels.csproj",
+      "msbuildProject": "../../Web/DataGate.Web.ViewModels/DataGate.Web.ViewModels.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "DataGate.Data >= 1.0.0",
+      "DataGate.Services.Data >= 1.0.0",
+      "DataGate.Web >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Lenovo\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Lenovo\\Desktop\\DataGate\\Tests\\DataGate.Services.Data.Tests\\DataGate.Services.Data.Tests.csproj",
+      "projectName": "DataGate.Services.Data.Tests",
+      "projectPath": "C:\\Users\\Lenovo\\Desktop\\DataGate\\Tests\\DataGate.Services.Data.Tests\\DataGate.Services.Data.Tests.csproj",
+      "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Lenovo\\Desktop\\DataGate\\Tests\\DataGate.Services.Data.Tests\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "C:\\Users\\Lenovo\\Desktop\\DataGate\\Data\\DataGate.Data\\DataGate.Data.csproj": {
+              "projectPath": "C:\\Users\\Lenovo\\Desktop\\DataGate\\Data\\DataGate.Data\\DataGate.Data.csproj"
+            },
+            "C:\\Users\\Lenovo\\Desktop\\DataGate\\Services\\DataGate.Services.Data\\DataGate.Services.Data.csproj": {
+              "projectPath": "C:\\Users\\Lenovo\\Desktop\\DataGate\\Services\\DataGate.Services.Data\\DataGate.Services.Data.csproj"
+            },
+            "C:\\Users\\Lenovo\\Desktop\\DataGate\\Web\\DataGate.Web\\DataGate.Web.csproj": {
+              "projectPath": "C:\\Users\\Lenovo\\Desktop\\DataGate\\Web\\DataGate.Web\\DataGate.Web.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461"
+        ],
+        "assetTargetFallback": true,
+        "warn": true
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project DataGate.Services.Data is not compatible with netcoreapp3.1 (.NETCoreApp,Version=v3.1). Project DataGate.Services.Data supports: netstandard2.1 (.NETStandard,Version=v2.1)",
+      "libraryId": "DataGate.Services.Data",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project DataGate.Common is not compatible with netcoreapp3.1 (.NETCoreApp,Version=v3.1). Project DataGate.Common supports: netstandard2.1 (.NETStandard,Version=v2.1)",
+      "libraryId": "DataGate.Common",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project DataGate.Data.Common is not compatible with netcoreapp3.1 (.NETCoreApp,Version=v3.1). Project DataGate.Data.Common supports: netstandard2.1 (.NETStandard,Version=v2.1)",
+      "libraryId": "DataGate.Data.Common",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project DataGate.Data.Models is not compatible with netcoreapp3.1 (.NETCoreApp,Version=v3.1). Project DataGate.Data.Models supports: netstandard2.1 (.NETStandard,Version=v2.1)",
+      "libraryId": "DataGate.Data.Models",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project DataGate.Web.Utilities is not compatible with netcoreapp3.1 (.NETCoreApp,Version=v3.1). Project DataGate.Web.Utilities supports: netstandard2.1 (.NETStandard,Version=v2.1)",
+      "libraryId": "DataGate.Web.Utilities",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project DataGate.Web.Dtos is not compatible with netcoreapp3.1 (.NETCoreApp,Version=v3.1). Project DataGate.Web.Dtos supports: netstandard2.1 (.NETStandard,Version=v2.1)",
+      "libraryId": "DataGate.Web.Dtos",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project DataGate.Services is not compatible with netcoreapp3.1 (.NETCoreApp,Version=v3.1). Project DataGate.Services supports: netstandard2.1 (.NETStandard,Version=v2.1)",
+      "libraryId": "DataGate.Services",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project DataGate.Web.InputModels is not compatible with netcoreapp3.1 (.NETCoreApp,Version=v3.1). Project DataGate.Web.InputModels supports: netstandard2.1 (.NETStandard,Version=v2.1)",
+      "libraryId": "DataGate.Web.InputModels",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project DataGate.Services.Mapping is not compatible with netcoreapp3.1 (.NETCoreApp,Version=v3.1). Project DataGate.Services.Mapping supports: netstandard2.1 (.NETStandard,Version=v2.1)",
+      "libraryId": "DataGate.Services.Mapping",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project DataGate.Services.Messaging is not compatible with netcoreapp3.1 (.NETCoreApp,Version=v3.1). Project DataGate.Services.Messaging supports: netstandard2.1 (.NETStandard,Version=v2.1)",
+      "libraryId": "DataGate.Services.Messaging",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project DataGate.Web.ViewModels is not compatible with netcoreapp3.1 (.NETCoreApp,Version=v3.1). Project DataGate.Web.ViewModels supports: netstandard2.1 (.NETStandard,Version=v2.1)",
+      "libraryId": "DataGate.Web.ViewModels",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project DataGate.Web.Infrastructure is not compatible with netcoreapp3.1 (.NETCoreApp,Version=v3.1). Project DataGate.Web.Infrastructure supports: netstandard2.1 (.NETStandard,Version=v2.1)",
+      "libraryId": "DataGate.Web.Infrastructure",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,219 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETStandard,Version=v2.1": {
+      "DataGate.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/DataGate.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataGate.Common.dll": {}
+        }
+      },
+      "DataGate.Data.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/DataGate.Data.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataGate.Data.Common.dll": {}
+        }
+      },
+      "DataGate.Data.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "DataGate.Data.Common": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DataGate.Data.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataGate.Data.Models.dll": {}
+        }
+      },
+      "DataGate.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "DataGate.Common": "1.0.0",
+          "DataGate.Web.Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DataGate.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataGate.Services.dll": {}
+        }
+      },
+      "DataGate.Services.Mapping/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/DataGate.Services.Mapping.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataGate.Services.Mapping.dll": {}
+        }
+      },
+      "DataGate.Web.Dtos/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "DataGate.Services": "1.0.0",
+          "DataGate.Services.Mapping": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DataGate.Web.Dtos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataGate.Web.Dtos.dll": {}
+        }
+      },
+      "DataGate.Web.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "DataGate.Common": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DataGate.Web.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataGate.Web.Infrastructure.dll": {}
+        }
+      },
+      "DataGate.Web.InputModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "DataGate.Common": "1.0.0",
+          "DataGate.Data.Models": "1.0.0",
+          "DataGate.Services.Mapping": "1.0.0",
+          "DataGate.Web.Dtos": "1.0.0",
+          "DataGate.Web.Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DataGate.Web.InputModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataGate.Web.InputModels.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DataGate.Common/1.0.0": {
+      "type": "project",
+      "path": "../../DataGate.Common/DataGate.Common.csproj",
+      "msbuildProject": "../../DataGate.Common/DataGate.Common.csproj"
+    },
+    "DataGate.Data.Common/1.0.0": {
+      "type": "project",
+      "path": "../../Data/DataGate.Data.Common/DataGate.Data.Common.csproj",
+      "msbuildProject": "../../Data/DataGate.Data.Common/DataGate.Data.Common.csproj"
+    },
+    "DataGate.Data.Models/1.0.0": {
+      "type": "project",
+      "path": "../../Data/DataGate.Data.Models/DataGate.Data.Models.csproj",
+      "msbuildProject": "../../Data/DataGate.Data.Models/DataGate.Data.Models.csproj"
+    },
+    "DataGate.Services/1.0.0": {
+      "type": "project",
+      "path": "../../Services/DataGate.Services/DataGate.Services.csproj",
+      "msbuildProject": "../../Services/DataGate.Services/DataGate.Services.csproj"
+    },
+    "DataGate.Services.Mapping/1.0.0": {
+      "type": "project",
+      "path": "../../Services/DataGate.Services.Mapping/DataGate.Services.Mapping.csproj",
+      "msbuildProject": "../../Services/DataGate.Services.Mapping/DataGate.Services.Mapping.csproj"
+    },
+    "DataGate.Web.Dtos/1.0.0": {
+      "type": "project",
+      "path": "../DataGate.Web.Dtos/DataGate.Web.Dtos.csproj",
+      "msbuildProject": "../DataGate.Web.Dtos/DataGate.Web.Dtos.csproj"
+    },
+    "DataGate.Web.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../DataGate.Web.Infrastructure/DataGate.Web.Infrastructure.csproj",
+      "msbuildProject": "../DataGate.Web.Infrastructure/DataGate.Web.Infrastructure.csproj"
+    },
+    "DataGate.Web.InputModels/1.0.0": {
+      "type": "project",
+      "path": "../DataGate.Web.InputModels/DataGate.Web.InputModels.csproj",
+      "msbuildProject": "../DataGate.Web.InputModels/DataGate.Web.InputModels.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETStandard,Version=v2.1": [
+      "DataGate.Data.Models >= 1.0.0",
+      "DataGate.Services.Mapping >= 1.0.0",
+      "DataGate.Web.Dtos >= 1.0.0",
+      "DataGate.Web.InputModels >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Lenovo\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Lenovo\\Desktop\\DataGate\\Web\\DataGate.Web.ViewModels\\DataGate.Web.ViewModels.csproj",
+      "projectName": "DataGate.Web.ViewModels",
+      "projectPath": "C:\\Users\\Lenovo\\Desktop\\DataGate\\Web\\DataGate.Web.ViewModels\\DataGate.Web.ViewModels.csproj",
+      "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Lenovo\\Desktop\\DataGate\\Web\\DataGate.Web.ViewModels\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netstandard2.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "projectReferences": {
+            "C:\\Users\\Lenovo\\Desktop\\DataGate\\Data\\DataGate.Data.Models\\DataGate.Data.Models.csproj": {
+              "projectPath": "C:\\Users\\Lenovo\\Desktop\\DataGate\\Data\\DataGate.Data.Models\\DataGate.Data.Models.csproj"
+            },
+            "C:\\Users\\Lenovo\\Desktop\\DataGate\\Services\\DataGate.Services.Mapping\\DataGate.Services.Mapping.csproj": {
+              "projectPath": "C:\\Users\\Lenovo\\Desktop\\DataGate\\Services\\DataGate.Services.Mapping\\DataGate.Services.Mapping.csproj"
+            },
+            "C:\\Users\\Lenovo\\Desktop\\DataGate\\Web\\DataGate.Web.Dtos\\DataGate.Web.Dtos.csproj": {
+              "projectPath": "C:\\Users\\Lenovo\\Desktop\\DataGate\\Web\\DataGate.Web.Dtos\\DataGate.Web.Dtos.csproj"
+            },
+            "C:\\Users\\Lenovo\\Desktop\\DataGate\\Web\\DataGate.Web.InputModels\\DataGate.Web.InputModels.csproj": {
+              "projectPath": "C:\\Users\\Lenovo\\Desktop\\DataGate\\Web\\DataGate.Web.InputModels\\DataGate.Web.InputModels.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netstandard2.1": {
+        "imports": [
+          "net461"
+        ],
+        "assetTargetFallback": true,
+        "warn": true
+      }
+    }
+  }
+}

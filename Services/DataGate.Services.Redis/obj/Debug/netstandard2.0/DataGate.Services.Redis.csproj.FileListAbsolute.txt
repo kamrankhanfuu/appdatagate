@@ -1,0 +1,4 @@
+C:\Users\Lenovo\Desktop\DataGate\Services\DataGate.Services.Redis\obj\Debug\netstandard2.0\DataGate.Services.Redis.csprojAssemblyReference.cache
+C:\Users\Lenovo\Desktop\DataGate\Services\DataGate.Services.Redis\obj\Debug\netstandard2.0\DataGate.Services.Redis.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\DataGate\Services\DataGate.Services.Redis\obj\Debug\netstandard2.0\DataGate.Services.Redis.AssemblyInfoInputs.cache
+C:\Users\Lenovo\Desktop\DataGate\Services\DataGate.Services.Redis\obj\Debug\netstandard2.0\DataGate.Services.Redis.AssemblyInfo.cs
